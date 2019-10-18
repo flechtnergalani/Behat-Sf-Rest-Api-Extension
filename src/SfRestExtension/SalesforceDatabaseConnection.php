@@ -1,6 +1,6 @@
 <?php
 
-namespace Atamis\Extension\SFDBextension;
+namespace SfRestExtension;
 
 use Exception;
 use InvalidArgumentException;

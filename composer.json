@@ -1,0 +1,19 @@
+{
+    "name": "flechtnergalani/behat-salesforce-rest-extension",
+    "description": "Behat extension that provides easy access to the SF REST API through the developerforce/force.com-toolkit-for-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "Raphael Flechtner",
+            "email" : "flechtner@galaniprojects.de"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "SfRestExtension": "src"
+        }    
+    },
+    "require": {
+        "developerforce/force.com-toolkit-for-php": "^27.0"
+    }
+}

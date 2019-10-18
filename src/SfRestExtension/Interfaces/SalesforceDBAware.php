@@ -1,6 +1,6 @@
 <?php
 
-namespace Atamis\Extension\SFDBextension\Interfaces;
+namespace SfRestExtension\Interfaces;
 
 
 interface SalesforceDBAware

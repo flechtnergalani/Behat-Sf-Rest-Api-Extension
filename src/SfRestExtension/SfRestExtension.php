@@ -1,6 +1,6 @@
 <?php
 
-namespace Atamis\Extension\SFDBextension;
+namespace SfRestExtension;
 
 use Behat\Testwork\ServiceContainer\ExtensionManager;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Definition;
 /**
  * Behat extension to store references
  */
-class SFDBextension implements Extension
+class SfRestExtension implements Extension
 {
     /**
      * Extension configuration ID.
@@ -60,7 +60,7 @@ class SFDBextension implements Extension
      */
     public function load(ContainerBuilder $container, array $config)
     {
-        $definition = new Definition('Atamis\Extension\SFDBextension\Initializer\SFDBInitializer', [
+        $definition = new Definition('SfRestExtension\Initializer\SFDBInitializer', [
             $config['user'], $config['pw'], $config['token'], $config['wdsl_path'], 
             $config['endpoint']
         ]);

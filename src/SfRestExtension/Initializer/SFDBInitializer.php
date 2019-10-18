@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Atamis\Extension\SFDBextension\Initializer;
+namespace SfRestExtension\Initializer;
 
-use Atamis\Extension\SFDBextension\SalesforceDatabaseConnection;
+use SfRestExtension\SalesforceDatabaseConnection;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\Initializer\ContextInitializer;
-use Atamis\Extension\SFDBextension\Interfaces\SalesforceDBAware;
+use SfRestExtension\Interfaces\SalesforceDBAware;
 
 class SFDBInitializer implements ContextInitializer
 {
